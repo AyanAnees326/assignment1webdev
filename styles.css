@@ -1,0 +1,144 @@
+body{
+    background-color:#201e30c4;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.intro-area-text{
+    color: rgb(216, 208, 208);
+    size: auto;
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+#text1{
+    font-size: 2rem;
+}
+
+#photo{
+    transform:scale(0.6);
+    position:absolute;
+    right:-31%;
+    top: -15%;
+}
+
+.heading{
+    position: absolute;
+    top:6cqb;
+    left: 50%;
+    font-weight: 200rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: rgb(216, 208, 208);
+    text-align: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.heading:hover{
+    transform:translate(-50%,-100%);
+    color:#201e30
+}
+
+.info{
+  position: absolute;
+  top:50%;
+  left: 5%;
+  display: flex;
+  justify-content:space-between;
+  gap:8rem;
+  color:  rgb(216, 208, 208);
+  font-size: 2rem;
+}
+
+#python{
+    width:2.5rem;
+    height:auto;
+    vertical-align:middle;
+}
+
+#c{
+    width:2.5rem;
+    height:auto;
+    vertical-align:middle;
+}
+
+#html{
+    width:2rem;
+    height:auto;
+    vertical-align:middle;
+}
+
+#css{
+    width:2rem;
+    height:auto;
+    vertical-align:middle;   
+}
+#js{
+    width:2rem;
+    height:auto;
+    vertical-align:middle;     
+}
+#gym{
+    width:4rem;
+    height:auto;
+    vertical-align:middle;
+}
+#guitar{
+    cursor: pointer;
+    width:5rem;
+    height:auto;
+    vertical-align:middle;
+}
+#gaming1{
+    width:4rem;
+    height:auto;
+    vertical-align:middle;
+}
+#gaming2{
+    width:3rem;
+    height:auto;
+    vertical-align:middle;
+}
+
+#gmail{
+    width:5rem;
+    height:auto;
+    vertical-align:middle;
+}
+
+#contact-section{
+    position:absolute;
+    bottom:6%;
+    font-weight: 200;
+    font-size: 3rem;
+    color: rgba(252, 252, 252, 0.644);
+}
+
+#floating{
+    color:rgba(216, 208, 208, 0.418); 
+    font-size: 1rem;
+    vertical-align: middle;
+    animation: floatInOut 3s ease-in-out infinite;
+}
+
+@keyframes floatInOut {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
